@@ -1,0 +1,3 @@
+Test Case,Scenario, Result2022-12-30, URL,Fail/Pass
+User Moduel,Login With correct Username and Wrong Password,Invalid Credentials,https://staging.brandsignals.io/login/
+Login Moduel,Login With Correct Username and Wrong Password,Invalid Credentials,https://staging.brandsignals.io/login/
