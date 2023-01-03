@@ -1,0 +1,16 @@
+Test Case,Scenario, Result2023-01-03, URL
+Login Credential,Username : Shakeel_QA_Admin,Password : AA@@1122
+User Module,Login With Correct Username and Password,Login Successfully,https://staging.brandsignals.io/campaign/,
+User Module,Check User Name Less Than 5 Characters,Your Username must be at between 5-50 characters,https://staging.brandsignals.io/users/,
+User Module,Check Special Character in User Name,Spaces and Special Character are not allowed.,https://staging.brandsignals.io/users/,
+User Module,Add Username as Per Requirement, Username Accepted,https://staging.brandsignals.io/users/
+User Module,Select Position from Drop Down,Position has been Selected,https://staging.brandsignals.io/users/
+User Module,Add Wrong Email Pattern,Please correct your Email Pattern and Max length can be 190 characters.,https://staging.brandsignals.io/users/
+User Module,Add Correct Email Pattern,Email Accepted,https://staging.brandsignals.io/users/ 
+User Module,Add Wrong Password,Password Must Contain One Capital Alphabet, One Numeric Digit And One Special Character - Password Must be between 8 and 50 Characters,https://staging.brandsignals.io/users/ 
+User Module,Add Correct Password,Password Accepeted,https://staging.brandsignals.io/users/ 
+User Module,Add Wrong Second Password,Passwords do not match,https://staging.brandsignals.io/users/
+User Module,Add Correct Second Password,Passwords match,https://staging.brandsignals.io/users/
+User Module,Click on Add User Button, Button is working,https://staging.brandsignals.io/users/
+User Module,Create User,Email or User Already Exist,https://staging.brandsignals.io/users/
+User Module,Created Username,Shakeel_9T5q,https://staging.brandsignals.io/users/
