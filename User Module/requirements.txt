@@ -1,3 +1,0 @@
-PyAutoGUI==0.9.53
-selenium==4.7.2
-webdriver_manager==3.8.3

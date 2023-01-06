@@ -37,7 +37,7 @@ def main():
     today = date.today()
     pop = driver.find_element(By.ID,"popUpMessage").text  
     make_csv('Login Report.csv',f'Test Case,Scenario, Result{today}, URL,Fail/Pass\n', new=True)
-    make_csv('Login Report.csv',f'User Moduel,Login With correct Username and Wrong Password,{pop},{url}\n', new=False)
+    make_csv('Login Report.csv',f'Login Module,Login With Correct Username and Wrong Password,{pop},{url}\n', new=False)
     time.sleep(3)
     
     login1 = LoginPage(driver)
@@ -46,7 +46,7 @@ def main():
     login.submit_btn(LoginModuleResources.submit_button)
     time.sleep(0.5)
     pop1 = driver.find_element(By.ID,"popUpMessage").text  
-    make_csv('Login Report.csv',f'Login Moduel,Login With Correct Username and Wrong Password,{pop1},{url}\n', new=False)
+    make_csv('Login Report.csv',f'Login Module,Login With Wrong Username and Wrong Password,{pop1},{url}\n', new=False)
     time.sleep(3)
    
     login2 = LoginPage(driver)
@@ -54,10 +54,10 @@ def main():
     login2.enter_password(LoginModuleResources.password, PASS_WORD)
     url = (driver.current_url)
     login.submit_btn(LoginModuleResources.submit_button)
-    url_s = (driver.current_url)
+    url_s = (driver.current_url)                                                           
     time.sleep(0.5)
     
-    make_csv('Login Report.csv',f'User Moduel,Login With correct Username and Password,Login Successfull,{url_s}\n', new=False)
+    make_csv('Login Report.csv',f'Login Module,Login With Correct Username and Password,Login Successfully,{url_s}\n', new=False)
     time.sleep(3)
 
 
