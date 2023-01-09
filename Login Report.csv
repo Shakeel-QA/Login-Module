@@ -1,3 +1,5 @@
-Test Case,Scenario, Result2023-01-06, URL,Fail/Pass
+Test Case,Scenario, Result2023-01-09, URL,Fail/Pass
+Login Credential,Username:Shakeel_QA_Admin,Password:AA@@1122,
 Login Module,Login With Correct Username and Wrong Password,Invalid Credentials,https://staging.brandsignals.io/login/
-Login Module,Login With Wrong Username and Wrong Password,Invalid Credentials,https://staging.brandsignals.io/login/
+Login Module,Login With Wrong Username and Correct Password,Invalid Credentials,https://staging.brandsignals.io/login/
+Login Module,Login With Correct Username and Correct Password,Login Successfully,https://staging.brandsignals.io/campaign/
